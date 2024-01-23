@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Submit_Order_Test" class="navigator-link">
-              <span class="suite-name border-failed">Submit Order Test</span>
+              <span class="suite-name border-passed">Submit Order Test</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Submit_Order_Test" class="navigator-link ">
-                    <span>C:\Users\CODECLOUDS-SOUMYA\eclipse-workspace\PracticeFrameWork\TestSuite\testng.xml</span>
+                    <span>C:\Users\CODECLOUDS-SOUMYA\eclipse-workspace\PracticeFrameWork\TestSuite\testngrouping.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Submit_Order_Test" class="hide-methods failed suite-Submit_Order_Test"> (hide)</a> <!-- hide-methods failed suite-Submit_Order_Test -->
-                      <a href="#" panel-name="suite-Submit_Order_Test" class="show-methods failed suite-Submit_Order_Test"> (show)</a> <!-- show-methods failed suite-Submit_Order_Test -->
-                    </span>
-                    <div class="method-list-content failed suite-Submit_Order_Test">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Submit_Order_Test" title="CodeClouds.PracticeFrameWork.ValidationTest" class="method navigator-link" hash-for-method="validationTest">validationTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Submit_Order_Test -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,22 +103,7 @@
                     <div class="method-list-content passed suite-Submit_Order_Test">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Submit_Order_Test" title="CodeClouds.PracticeFrameWork.OrderPlaced" class="method navigator-link" hash-for-method="cartVerify({password=123456#Aa, product=ZARA COAT 3, email=sam94339@gmail.com})">cartVerify({password=123456#Aa, product=ZARA COAT 3, email=sam94339@gmail.com})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Submit_Order_Test" title="CodeClouds.PracticeFrameWork.OrderPlaced" class="method navigator-link" hash-for-method="cartVerify({password=123456@Aa, product=ADIDAS ORIGINAL, email=soumyadeep.ghosh@yopmail.com})">cartVerify({password=123456@Aa, product=ADIDAS ORIGINAL, email=soumyadeep.ghosh@yopmail.com})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Submit_Order_Test" title="CodeClouds.PracticeFrameWork.OrderPlaced" class="method navigator-link" hash-for-method="submitOrder({password=123456@Aa, product=ADIDAS ORIGINAL, email=soumyadeep.ghosh@yopmail.com})">submitOrder({password=123456@Aa, product=ADIDAS ORIGINAL, email=soumyadeep.ghosh@yopmail.com})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Submit_Order_Test" title="CodeClouds.PracticeFrameWork.OrderPlaced" class="method navigator-link" hash-for-method="submitOrder({password=123456#Aa, product=ZARA COAT 3, email=sam94339@gmail.com})">submitOrder({password=123456#Aa, product=ZARA COAT 3, email=sam94339@gmail.com})</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Submit_Order_Test" title="CodeClouds.PracticeFrameWork.ValidationTest" class="method navigator-link" hash-for-method="validationTest">validationTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Submit_Order_Test -->
@@ -147,9 +118,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Submit_Order_Test" class="panel Submit_Order_Test">
-          <div class="suite-Submit_Order_Test-class-failed">
+          <div class="suite-Submit_Order_Test-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">CodeClouds.PracticeFrameWork.ValidationTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -158,55 +129,6 @@
                   <a name="validationTest">
                   </a> <!-- validationTest -->
                   <span class="method-name">validationTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Incorrect email or password1.] but found [Incorrect email or password.]
-	at CodeClouds.PracticeFrameWork.ValidationTest.validationTest(ValidationTest.java:14)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 23 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Submit_Order_Test-class-failed -->
-          <div class="suite-Submit_Order_Test-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">CodeClouds.PracticeFrameWork.OrderPlaced</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="cartVerify({password=123456#Aa, product=ZARA COAT 3, email=sam94339@gmail.com})">
-                  </a> <!-- cartVerify({password=123456#Aa, product=ZARA COAT 3, email=sam94339@gmail.com}) -->
-                  <span class="method-name">cartVerify</span>
-                  <span class="parameters">({password=123456#Aa, product=ZARA COAT 3, email=sam94339@gmail.com})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="cartVerify({password=123456@Aa, product=ADIDAS ORIGINAL, email=soumyadeep.ghosh@yopmail.com})">
-                  </a> <!-- cartVerify({password=123456@Aa, product=ADIDAS ORIGINAL, email=soumyadeep.ghosh@yopmail.com}) -->
-                  <span class="method-name">cartVerify</span>
-                  <span class="parameters">({password=123456@Aa, product=ADIDAS ORIGINAL, email=soumyadeep.ghosh@yopmail.com})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="submitOrder({password=123456@Aa, product=ADIDAS ORIGINAL, email=soumyadeep.ghosh@yopmail.com})">
-                  </a> <!-- submitOrder({password=123456@Aa, product=ADIDAS ORIGINAL, email=soumyadeep.ghosh@yopmail.com}) -->
-                  <span class="method-name">submitOrder</span>
-                  <span class="parameters">({password=123456@Aa, product=ADIDAS ORIGINAL, email=soumyadeep.ghosh@yopmail.com})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="submitOrder({password=123456#Aa, product=ZARA COAT 3, email=sam94339@gmail.com})">
-                  </a> <!-- submitOrder({password=123456#Aa, product=ZARA COAT 3, email=sam94339@gmail.com}) -->
-                  <span class="method-name">submitOrder</span>
-                  <span class="parameters">({password=123456#Aa, product=ZARA COAT 3, email=sam94339@gmail.com})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -214,22 +136,29 @@
         </div> <!-- panel Submit_Order_Test -->
         <div panel-name="test-xml-Submit_Order_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\CODECLOUDS-SOUMYA\eclipse-workspace\PracticeFrameWork\TestSuite\testng.xml</span>
+            <span class="header-content">C:\Users\CODECLOUDS-SOUMYA\eclipse-workspace\PracticeFrameWork\TestSuite\testngrouping.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;tests&quot; name=&quot;Submit Order Test&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;listeners&gt;
-    &lt;listener class-name=&quot;BasePackage.Listeners&quot;/&gt;
-  &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Test&quot;&gt;
+&lt;suite name=&quot;Submit Order Test&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;groupTest&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;groupTest&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;CodeClouds.PracticeFrameWork.ValidationTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Error validation test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Error validation test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;CodeClouds.PracticeFrameWork.OrderPlaced&quot;/&gt;
     &lt;/classes&gt;
@@ -282,32 +211,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'submitOrder')
-data.setCell(0, 2, 'CodeClouds.PracticeFrameWork.OrderPlaced')
-data.setCell(0, 3, 12386);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'submitOrder')
-data.setCell(1, 2, 'CodeClouds.PracticeFrameWork.OrderPlaced')
-data.setCell(1, 3, 10787);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'cartVerify')
-data.setCell(2, 2, 'CodeClouds.PracticeFrameWork.OrderPlaced')
-data.setCell(2, 3, 1604);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'cartVerify')
-data.setCell(3, 2, 'CodeClouds.PracticeFrameWork.OrderPlaced')
-data.setCell(3, 3, 1434);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'validationTest')
-data.setCell(4, 2, 'CodeClouds.PracticeFrameWork.ValidationTest')
-data.setCell(4, 3, 1347);
+data.setCell(0, 1, 'validationTest')
+data.setCell(0, 2, 'CodeClouds.PracticeFrameWork.ValidationTest')
+data.setCell(0, 3, 1005);
 window.suiteTableData['Submit_Order_Test']= { tableData: data, tableDiv: 'times-div-Submit_Order_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 51 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Submit_Order_Test">
               </div> <!-- times-div-Submit_Order_Test -->
             </div> <!-- times-div -->
@@ -322,9 +235,18 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Submit_Order_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">CodeClouds.PracticeFrameWork.OrderPlaced</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">cartVerify</span>
+                <br/>
+                <span class="ignored-method-name">submitOrder</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Submit_Order_Test" class="panel">
@@ -338,78 +260,13 @@ return data;
                 <span class="method-name">gotoLandingPage</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">CodeClouds.PracticeFrameWork.OrderPlaced</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">gotoLandingPage</span>
-                <span class="method-start">959 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">CodeClouds.PracticeFrameWork.ValidationTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">validationTest</span>
-                <span class="method-start">10178 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">CodeClouds.PracticeFrameWork.OrderPlaced</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">submitOrder({password=123456#Aa, product=ZARA COAT 3, email=sam94339@gmail.com})</span>
-                <span class="method-start">10193 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">CodeClouds.PracticeFrameWork.ValidationTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">12659 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">CodeClouds.PracticeFrameWork.OrderPlaced</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">22586 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">gotoLandingPage</span>
-                <span class="method-start">22910 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">submitOrder({password=123456@Aa, product=ADIDAS ORIGINAL, email=soumyadeep.ghosh@yopmail.com})</span>
-                <span class="method-start">27505 ms</span>
+                <span class="method-start">6748 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">38295 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">gotoLandingPage</span>
-                <span class="method-start">38654 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">cartVerify({password=123456#Aa, product=ZARA COAT 3, email=sam94339@gmail.com})</span>
-                <span class="method-start">43247 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">44853 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">gotoLandingPage</span>
-                <span class="method-start">45239 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">cartVerify({password=123456@Aa, product=ADIDAS ORIGINAL, email=soumyadeep.ghosh@yopmail.com})</span>
-                <span class="method-start">50024 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">51460 ms</span>
+                <span class="method-start">7764 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
